@@ -4,7 +4,7 @@ import { dataset } from "./data"
 
 export default function Home() {
 	return (
-		<div className={styles.events}>
+		<div className={styles.events} id="events">
 			<span className={styles.heading}>Events</span>
 
 			<div className={styles.eventsContainer}>

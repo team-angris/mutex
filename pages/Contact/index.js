@@ -4,7 +4,7 @@ import { technical, nonTechnical } from "./data"
 
 export default function Home() {
 	return (
-		<div className={styles.contact}>
+		<div className={styles.contact} id="contact">
 			<span className={styles.heading}>Contact</span>
 			<div className={styles.contactContainer}>
 				<Technical technical={technical} />

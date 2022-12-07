@@ -4,7 +4,7 @@ import "react-gallery-carousel/dist/index.css"
 
 export default function Home() {
 	return (
-		<div className={styles.aboutSection}>
+		<div className={styles.aboutSection} id="about">
 			<div className={styles.aboutContainer}>
 				<span className={styles.aboutHeadingText}>About Mutex'22</span>
 
