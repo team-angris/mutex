@@ -10,6 +10,75 @@
     text-align: center;
 }
 
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.timerItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+    background-color: #ffffff08;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    height: 6rem;
+}
+
+.timerNumber {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 0.5rem;
+    min-width: 2ch;
+    text-align: center;
+}
+
+.timerText {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.explore {
+    font-family: "Work Sans";
+    padding: 10px 55px 11px 55px;
+    background-color: #FF1616;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    border: 0;
+    outline: none;
+    margin-top: 1rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    background-position: center;
+    -webkit-transition: background 0.8s;
+    -o-transition: background 0.8s;
+    transition: background 0.8s;
+}
+
+.explore:hover {
+    background-color: #e00000;
+    background: #e00000 -o-radial-gradient(circle, transparent 1%, #e00000 1%) center/15000%;
+    background: #e00000 radial-gradient(circle, transparent 1%, #e00000 1%) center/15000%;
+}
+
+.explore:active {
+    background-color: #FF1616;
+    background-size: 100%;
+    -webkit-transition: background 0s;
+    -o-transition: background 0s;
+    transition: background 0s;
+    
+
+}
+
 @media screen and (max-width: 480px) {
     .heroImage {
         height: auto;
