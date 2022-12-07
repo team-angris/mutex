@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 3rem;
+	margin-top: 8rem;
     position: relative;
 }
 
@@ -10,6 +10,7 @@
 	color: #ff3333;
 	font-size: 30px;
 	font-weight: 800;
+	margin-bottom: 2rem;
 }
 
 .eventsContainer {
@@ -74,11 +75,12 @@
 }
 
 .designThing {
-    position: absolute;
+	position: absolute;
     background: url(/_next/static/media/spiral.dfc5ebd8.svg) no-repeat center
 		center;
     height: 133vh;
     width: 97vw;
     z-index: -1;
-    top: -176px;
+    top: -330px;
+    background-size: 953px;
 }
