@@ -17,6 +17,10 @@
     transition: all 0.2s ease-in-out;
 }
 
+.navSpan {
+    cursor: pointer;
+}
+
 .flexOne {
     flex: 1;
 }
