@@ -1,0 +1,32 @@
+.aboutSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3rem;
+}
+
+.aboutContainer {
+    width: 40%;
+}
+
+.aboutHeadingText {
+    font-family: "Inter";
+    font-weight: 800;
+    color: #FF3333;
+    font-size: 30px;
+    display: block;
+}
+
+.aboutContentText {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    .aboutSection {
+        flex-direction: column;
+    }
+}
