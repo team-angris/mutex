@@ -1,0 +1,30 @@
+.sponsors {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3rem;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.heading {
+	color: #ff3333;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.sponsorsContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    height: 80vh;
+    width: 90vw;
+    border: 1px solid white;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border-radius: 12px;
+    background-color: #4a49495e;
+}
