@@ -5,6 +5,8 @@
 	margin-top: 3rem;
     padding-bottom: 8rem;
     position: relative;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(48,1,0,1) 37%, rgba(162,0,0,1) 100%);
 }
 
 .heading {
