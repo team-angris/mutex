@@ -28,14 +28,15 @@ function EventsSection() {
 				</div>
 				<div className={styles.eventDetails}>
 					{data.map((item) => (
-						<EventDetails 
-                            item={item}
-                            selected={selected}
-                            key={item.id}
-                        />
+						<EventDetails
+							item={item}
+							selected={selected}
+							key={item.id}
+						/>
 					))}
 				</div>
 			</div>
+            <div style={{height: "50px"}}></div>
 		</div>
 	)
 }
@@ -64,6 +65,21 @@ function EventDetails(props) {
 					: styles.eventDetailsHidden
 			}
 		>
+			<Details item={props.item} />
+		</div>
+	)
+}
+
+function Details(props) {
+	return (
+		<div className={styles.actualEventDetails}>
+			<LeftDetails item={props.item} />
+			<div className={styles.eventRight}>
+				<img src="https://picsum.photos/200/300" alt="Event Image" />
+			</div>
+		</div>
+	)
+}
 
 function LeftDetails(props) {
 	return (
