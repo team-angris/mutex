@@ -28,4 +28,15 @@
     .aboutSection {
         flex-direction: column;
     }
+    .aboutContainer {
+        width: unset;
+        padding: 2rem;
+    }
+    .aboutHeadingText {
+        text-align: center;
+    }
+    .aboutContentText {
+        margin-right: unset;
+        text-align: center;
+    }
 }
