@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 export default function Home() {
 	return (
 		<div className={styles.hero}>
-            <HeroImage />
+			<HeroImage />
 			<Title />
 			<Timer />
 			<Explore />
@@ -29,9 +29,10 @@ function HeroImage() {
 function Title() {
 	return (
 		<span className={styles.title}>
-			DevJams is one of a kind hackathon conducted by Google Developer
-			Student Clubs VIT every year to encourage tech enthusiasts from
-			across the country to develop their ideas for the future.
+			MUTEX, an intra-college technological festival with it's primary
+			goal to teach the juniors the numerous technical and analytical
+			abilities necessary to thrive in the current IT sector with 
+			technical and non-technical events
 		</span>
 	)
 }

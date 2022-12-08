@@ -9,16 +9,18 @@ export default function Home() {
 				<span className={styles.aboutHeadingText}>About Mutex'22</span>
 
 				<span className={styles.aboutContentText}>
-					DevJams is one of a kind hackathon conducted by Google
-					Developer Student Clubs VIT every year to encourage tech
-					enthusiasts from across the country to develop their ideas
-					for the future. The hackathon focuses on providing students
-					and upcoming entrepreneurs with a platform to develop,
-					compete, network and present their ideas to solve real-world
-					problems. We have been successfully conducting DevJams
-					(previously known as Devfest) for 6 years now. DevJams'22
-					will be the seventh edition through which we hope to bring
-					innovative minds from all around the globe under one banner.
+					The Madras Institute of Technology's Department of
+					Information Technology's Information Technology Association
+					(ITA) hosts MUTEX, an intra-college technological festival.
+					MUTEX's primary goal is to teach the juniors the numerous
+					technical and analytical abilities necessary to thrive in
+					the current IT sector. In light of this, technical
+					activities and events will be held as well as guest lectures
+					on personality development and leadership. It is accessible
+					to students from all disciplines and grade levels. This
+					event includes a wide variety of non-technical events like
+					connections and Rubik's cube solving as well as technical
+					events like various forms of coding and workshops.
 				</span>
 			</div>
 
