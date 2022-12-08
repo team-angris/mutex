@@ -84,6 +84,21 @@ function EventDetails(props) {
 			<p>{props.item.about}</p>
 
 
+function Prize(props) {
+	return (
+		<div className={styles.prize}>
+			<span className={styles.subHeadingTitle}>Prize Money 🤑</span>
+			<span className={styles.prizeSub}>
+				{props.prize.map((amount) => (
+					<div key={amount}>
+						<span>{amount}</span>
+					</div>
+				))}
+			</span>
+		</div>
+	)
+}
+
 function Rounds(props) {
 	return (
 		<div className={styles.rounds}>
