@@ -2,7 +2,7 @@ export default function Home() {
 	return <></>
 }
 
-export let data = [
+export let nonTechData = [
 	{
 		titleName: "Math O Mania",
 		id: 10001,

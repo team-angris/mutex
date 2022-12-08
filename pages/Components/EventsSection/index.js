@@ -1,6 +1,6 @@
 import styles from "./eventSection.module.css"
 import { useState } from "react"
-import { data } from "./data"
+import { nonTechData } from "./data"
 
 export default function Home() {
 	return (
@@ -17,7 +17,7 @@ function EventsSection() {
 		<div className={styles.container}>
 			<div className={styles.eventContainer}>
 				<div className={styles.eventList}>
-					{data.map((item) => (
+					{nonTechData.map((item) => (
 						<EventList
 							item={item}
 							selected={selected}
@@ -27,7 +27,7 @@ function EventsSection() {
 					))}
 				</div>
 				<div className={styles.eventDetails}>
-					{data.map((item) => (
+					{nonTechData.map((item) => (
 						<EventDetails
 							item={item}
 							selected={selected}
