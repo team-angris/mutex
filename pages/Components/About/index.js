@@ -34,5 +34,14 @@ const Images = () => {
 		src: `https://placedog.net/${number}00/${number}00?id=${number}`,
 	}))
 
-	return <Carousel images={images} style={{ height: 300, width: 300 }} />
+	return (
+		<Carousel
+			images={images}
+			style={{ height: 300, width: 300 }}
+			hasMediaButton={false}
+			hasIndexBoard={false}
+			hasLeftButton={"bottomLeft"}
+			hasRightButton={"bottomRight"}
+		/>
+	)
 }
