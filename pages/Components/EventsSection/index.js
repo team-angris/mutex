@@ -82,6 +82,18 @@ function EventDetails(props) {
 		>
 			<h3>{props.item.titleName}</h3>
 			<p>{props.item.about}</p>
+
+function Organizers(props) {
+	return (
+		<div className={styles.organizers}>
+			<span className={styles.subHeadingTitle}>Organizers</span>
+			<span className={styles.organizersSub}>
+				{props.organizers.map((organizer) => (
+					<div key={organizer}>
+						<span>{organizer}</span>
+					</div>
+				))}
+			</span>
 		</div>
 	)
 }
