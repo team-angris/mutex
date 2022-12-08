@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-import Header from './Header'
-import Hero from './Hero'
-import About from './About'
-import Events from './Events'
-import Sponsors from './Sponsors'
-import Contact from './Contact'
+import Header from './Components/Header'
+import Hero from './Components/Hero'
+import About from './Components/About'
+import Events from './Components/Events'
+import Sponsors from './Components/Sponsors'
+import Contact from './Components/Contact'
 
 export default function Home() {
   return (
