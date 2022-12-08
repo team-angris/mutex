@@ -80,9 +80,20 @@ function EventDetails(props) {
 					: styles.eventDetailsHidden
 			}
 		>
+
+function LeftDetails(props) {
+	return (
+		<div className={styles.eventLeft}>
 			<h3>{props.item.titleName}</h3>
 			<p>{props.item.about}</p>
 
+			<TopDetails item={props.item} />
+			<Prize prize={props.item.prize} />
+			<Rounds rounds={props.item.rounds} />
+			<Organizers organizers={props.item.organizers} />
+		</div>
+	)
+}
 
 function TopDetails(props) {
 	return (
