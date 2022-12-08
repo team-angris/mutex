@@ -35,6 +35,7 @@ export default function Home() {
 const Images = () => {
 	const images = [1, 3, 4, 5].map((number) => ({
 		src: `./posters/about/${number}.webp`,
+		alt: `Poster Image Number: ${number}`
 	}))
 
 	return (

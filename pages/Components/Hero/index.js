@@ -23,7 +23,7 @@ function HeroImage() {
 				src="./mutex.webp"
 				alt="Mutex"
 				height={300}
-				width={521}
+				width={465}
 			/>
 		</div>
 	)
@@ -101,8 +101,15 @@ function Timer() {
 }
 
 function Explore() {
+
+	let targetURL = "/#events"
+
+	let handleClick = () => {
+		window.location = targetURL
+	}
+
 	return (
-		<button className={styles.explore} type="button">
+		<button onClick={handleClick} className={styles.explore} type="button" >
 			Explore
 		</button>
 	)
