@@ -131,4 +131,19 @@ span.detailSub {
     .eventRight img {
         max-width: 300px;
     }
+    .eventList {
+        overflow: scroll;
+        flex-wrap: unset;
+        justify-content: unset;
+    }
+    .eventItem, .eventItemActive {
+        min-width: 20ch;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .eventItem, .eventItemActive {
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    
 }

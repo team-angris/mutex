@@ -30,6 +30,7 @@ a {
 
 * {
 	box-sizing: border-box;
+	-webkit-tap-highlight-color: #00000000;
 }
 
 @media (prefers-color-scheme: dark) {
