@@ -113,3 +113,22 @@ span.detailSub {
     margin-top: 0.5rem;
     gap: 0.5rem;
 }
+
+@media screen and (max-width: 480px) {
+    .actualEventDetails {
+        flex-direction: column-reverse;
+    }
+    .eventLeft {
+        margin-right: unset;
+    }
+    .eventRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 1rem;
+
+    }
+    .eventRight img {
+        max-width: 300px;
+    }
+}
