@@ -33,4 +33,7 @@
     .container {
         justify-content: center;
     }
+    .flexOne {
+        display: none;
+    }
 }

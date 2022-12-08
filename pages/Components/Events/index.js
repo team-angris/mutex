@@ -48,9 +48,11 @@ function EventCard(props) {
 			</span>
 			<span className={styles.description}>{props.description}</span>
 
-			<Link href={props.hyperlink}>
-				<span className={styles.hyperlinkSpan}>Explore</span>
-			</Link>
+			<div className={styles.linkContainer}>
+				<Link href={props.hyperlink}>
+					<span className={styles.hyperlinkSpan}>Explore</span>
+				</Link>
+			</div>
 
 		</div>
 	)
