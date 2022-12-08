@@ -4,27 +4,30 @@ import { dataset } from "./data"
 
 export default function Home() {
 	return (
-		<div className={styles.events} id="events">
-			<span className={styles.heading}>Events</span>
+		<>
+			<span id="events"></span>
+			<div className={styles.events}>
+				<span className={styles.heading}>Events</span>
 
-			<div className={styles.eventsContainer}>
-				{dataset.map((item) => {
-					let id = uuidv4()
-					return (
-						<EventCard
-							key={id}
-							heading={item.heading}
-							numberOfEvents={item.numberOfEvents}
-							description={item.description}
-							hyperlink={item.hyperlink}
-							bgImageURL={item.bgImageURL}
-						/>
-					)
-				})}
+				<div className={styles.eventsContainer}>
+					{dataset.map((item) => {
+						let id = uuidv4()
+						return (
+							<EventCard
+								key={id}
+								heading={item.heading}
+								numberOfEvents={item.numberOfEvents}
+								description={item.description}
+								hyperlink={item.hyperlink}
+								bgImageURL={item.bgImageURL}
+							/>
+						)
+					})}
+				</div>
+
+				<div className={styles.designThing}></div>
 			</div>
-
-			<div className={styles.designThing}></div>
-		</div>
+		</>
 	)
 }
 
@@ -39,7 +42,8 @@ function EventCard(props) {
 			<span className={styles.eventHeading}>{props.heading}</span>
 			<span className={styles.eventHeading}>Events</span>
 			<span className={styles.numberOfEvents}>
-				{props.numberOfEvents}{"+ EVENTS"}
+				{props.numberOfEvents}
+				{"+ EVENTS"}
 			</span>
 			<span className={styles.description}>{props.description}</span>
 			<a href={props.hyperlink} className={styles.hyperlink}>
