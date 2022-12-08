@@ -19,47 +19,69 @@ let data = [
 ]
 
 export default function Home() {
-    return (<>
-        <EventsSection />
-    </>)
+	return (
+		<>
+			<EventsSection />
+		</>
+	)
 }
 
 function EventsSection() {
 	let [selected, setSelected] = useState(10001)
 
-    return (
-        <div className={styles.container}>
-            <div className={styles.eventContainer}>
-                <div className={styles.eventList}>
-                    {data.map((item) => (
-                        <div
-                            className={
-                                selected === item.id
-                                    ? styles.eventItemActive
-                                    : styles.eventItem
-                            }
-                            onClick={() => setSelected(item.id)}
-                        >
-                            <h3>{item.titleName}</h3>
-                        </div>
-                    ))}
-                </div>
-                <div className={styles.eventDetails}>
-                    {data.map((item) => (
-                        <div
-                            className={
-                                selected === item.id
-                                    ? styles.eventDetailsActive
-                                    : styles.eventDetailsHidden
-                            }
-                        >
-                            <h3>{item.titleName}</h3>
-                            <p>{item.about}</p>
-                        </div>
-                    ))}
-                </div>
-            </div>
-        </div>
-    )
+	return (
+		<div className={styles.container}>
+			<div className={styles.eventContainer}>
+				<div className={styles.eventList}>
+					{data.map((item) => (
+						<EventList
+							item={item}
+							selected={selected}
+							setSelected={setSelected}
+							key={item.id}
+						/>
+					))}
+				</div>
+				<div className={styles.eventDetails}>
+					{data.map((item) => (
+						<EventDetails 
+                            item={item}
+                            selected={selected}
+                            key={item.id}
+                        />
+					))}
+				</div>
+			</div>
+		</div>
+	)
+}
 
+function EventList(props) {
+	return (
+		<div
+			className={
+				props.selected === props.item.id
+					? styles.eventItemActive
+					: styles.eventItem
+			}
+			onClick={() => props.setSelected(props.item.id)}
+		>
+			<h3>{props.item.titleName}</h3>
+		</div>
+	)
+}
+
+function EventDetails(props) {
+	return (
+		<div
+			className={
+				props.selected === props.item.id
+					? styles.eventDetailsActive
+					: styles.eventDetailsHidden
+			}
+		>
+			<h3>{props.item.titleName}</h3>
+			<p>{props.item.about}</p>
+		</div>
+	)
 }
