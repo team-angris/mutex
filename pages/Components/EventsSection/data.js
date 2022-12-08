@@ -92,4 +92,55 @@ export let data = [
 		],
 		posterUrl: "./posters/nontech/codehunt.png",
 	},
+	{
+		titleName: "Charades",
+		id: 10006,
+		about: "",
+		teamType: "Team",
+		teamSize: "3",
+		time: "Dec 10, 2pm - 4pm",
+		prize: ["Not yet announced 😞"],
+		rounds: [
+			"Any one person from the team can enact the given terms/words and the remaining members must guess it.",
+			"Round 1: Preliminary round.  Participants are expected to guess the word/term(non-technical).",
+			"Round 2: Both technical and non-technical terms will be tested. The best performing team will be selected as the  winners considering various aspects and scores.",
+		],
+		organizers: ["Pooja B (7395915055)", "Gnanavarshini M (6380614424)"],
+		posterUrl: "./posters/nontech/charades.png",
+	},
+	{
+		titleName: "Art",
+		id: 10007,
+		about: "",
+		teamType: "Solo",
+		teamSize: "1",
+		time: "Dec 10, 1pm - 3pm",
+		prize: ["Not yet announced 😞"],
+		rounds: [
+			"There is only one round in this competition. The topic will be provided on the spot, and the artwork needs to be finished in 90 minutes. The necessary tools will be offered. Depending on the preferences of the participants, more equipment may be brought. The top two works of art will be recognised after evaluations of creativity and ideology.",
+		],
+		organizers: ["Sowmya .R (8056493106)", "Surya.S (9150986251)"],
+		posterUrl: "./posters/nontech/charades.png",
+	},
+	{
+		titleName: "Code Cricket",
+		id: 10008,
+		about: "",
+		teamType: "Team",
+		teamSize: "3",
+		time: "Dec 10, 2pm - 4:30pm",
+		prize: ["Not yet announced 😞"],
+		rounds: [
+			"This competition aims to create the best cricket team within the available budget. There are two rounds of the competition.",
+            "Round 1: This tests the competitors' knowledge of cricket.",
+            "Round 2: This round essentially consists of an auction for the round 1 players who were chosen."
+
+		],
+		organizers: [
+            "Jagan (7540088216)",
+            "Veejendhiran P (6383647169)"
+
+        ],
+		posterUrl: "./posters/nontech/codecricket.png",
+	},
 ]
