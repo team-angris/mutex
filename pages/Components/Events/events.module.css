@@ -65,7 +65,7 @@
 	justify-content: space-around;
 }
 
-.hyperlink span {
+.hyperlinkSpan {
 	font-size: 12px;
 	border: 1px solid #ff3333;
 	color: #ffffff;
@@ -84,4 +84,10 @@
     z-index: -1;
     top: -330px;
     background-size: 953px;
+}
+
+@media screen and (max-width: 480px) {
+	.designThing {
+		width: 92vw;
+	}
 }
