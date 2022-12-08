@@ -83,6 +83,22 @@ function EventDetails(props) {
 			<h3>{props.item.titleName}</h3>
 			<p>{props.item.about}</p>
 
+
+function Rounds(props) {
+	return (
+		<div className={styles.rounds}>
+			<span className={styles.subHeadingTitle}>Rounds</span>
+			<span className={styles.roundsSub}>
+				{props.rounds.map((round) => (
+					<div key={round}>
+						<span>{round}</span>
+					</div>
+				))}
+			</span>
+		</div>
+	)
+}
+
 function Organizers(props) {
 	return (
 		<div className={styles.organizers}>
