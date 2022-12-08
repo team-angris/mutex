@@ -1,22 +1,6 @@
 import styles from "./eventSection.module.css"
 import { useState } from "react"
-let data = [
-	{
-		titleName: "Event 1",
-		id: 10001,
-		about: "This event is all about nukes",
-	},
-	{
-		titleName: "Event 2",
-		id: 10002,
-		about: "This event is all about bombs",
-	},
-	{
-		titleName: "Event 3",
-		id: 10003,
-		about: "This event is all about guns",
-	},
-]
+import { data } from "./data"
 
 export default function Home() {
 	return (
