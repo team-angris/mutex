@@ -75,7 +75,7 @@ function Details(props) {
 		<div className={styles.actualEventDetails}>
 			<LeftDetails item={props.item} />
 			<div className={styles.eventRight}>
-				<img src="https://picsum.photos/200/300" alt="Event Image" />
+				<img src={props.item.posterUrl} alt="Event Image" />
 			</div>
 		</div>
 	)

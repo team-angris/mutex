@@ -60,6 +60,8 @@
 
 .eventRight img {
     border-radius: 12px;
+    height: auto;
+    max-width: 392px;
 }
 
 .topDetails {
