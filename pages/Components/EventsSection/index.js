@@ -84,6 +84,38 @@ function EventDetails(props) {
 			<p>{props.item.about}</p>
 
 
+function TopDetails(props) {
+	return (
+		<div className={styles.topDetails}>
+			<div className={styles.detail}>
+				<span>Team Type</span>
+				<img
+					src="./svgs/team.svg"
+					alt="Team Type"
+					height={20}
+					width={20}
+				/>
+				<span className={styles.detailSub}>{props.item.teamType}</span>
+			</div>
+			<div className={styles.detail}>
+				<span>Team Size</span>
+				<img
+					src="./svgs/size.svg"
+					alt="Team Size"
+					height={20}
+					width={20}
+				/>
+				<span className={styles.detailSub}>{props.item.teamSize}</span>
+			</div>
+			<div className={styles.detail}>
+				<span>Time</span>
+				<img src="./svgs/time.svg" alt="Time" height={20} width={20} />
+				<span className={styles.detailSub}>{props.item.time}</span>
+			</div>
+		</div>
+	)
+}
+
 function Prize(props) {
 	return (
 		<div className={styles.prize}>
