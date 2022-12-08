@@ -34,24 +34,32 @@ function Title() {
 		<span className={styles.title}>
 			MUTEX, an intra-college technological festival with it's primary
 			goal to teach the juniors the numerous technical and analytical
-			abilities necessary to thrive in the current IT sector with 
+			abilities necessary to thrive in the current IT sector with
 			technical and non-technical events
 		</span>
 	)
 }
 
 function Timer() {
-	let event = new Date("2023-10-10T00:00:00").getTime()
+	let event = new Date("2022-12-10T00:00:00").getTime()
 
 	let [days, setDays] = useState("😎")
 	let [hours, setHours] = useState("😎")
 	let [minutes, setMinutes] = useState("😎")
 	let [seconds, setSeconds] = useState("😎")
 
+	let [isEventOver, setIsEventOver] = useState(false)
+
 	useEffect(() => {
 		let interval = setInterval(() => {
 			let now = new Date().getTime()
 			let distance = event - now
+
+			if (distance < 0) {
+				setIsEventOver(true)
+				clearInterval(interval)
+				return
+			}
 
 			setDays(Math.floor(distance / (1000 * 60 * 60 * 24)))
 			setHours(
@@ -68,12 +76,14 @@ function Timer() {
 		}
 	}, [])
 
-	return (
+	return isEventOver ? (
+		<></>
+	) : (
 		<div className={styles.timer}>
-			<div className={styles.timerItem}>
+			{/* <div className={styles.timerItem}>
 				<span className={styles.timerNumber}>{days}</span>
 				<span className={styles.timerText}>Days</span>
-			</div>
+			</div> */}
 			<div className={styles.timerItem}>
 				<span className={styles.timerNumber}>{hours}</span>
 				<span className={styles.timerText}>Hours</span>

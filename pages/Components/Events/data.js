@@ -7,25 +7,25 @@ let dataset = [
 		heading: "Technical",
 		numberOfEvents: "10",
 		description:
-			"If you are a dreamer with a keen eye for detail, specializing in stunning visual imagery. If you are imaginative and can translate communication into design, then connect with us by sending in your application.",
-		hyperlink: "/events/technical",
-		bgImageURL: './events/technical.webp',
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis sagittis metus nec consectetur. Nullam vel semper quam. Donec fermentum vel enim quis consectetur. Pellentesque at neque dapibus, sollicitudin purus sit amet, vehicula felis.",
+		hyperlink: "/technical",
+		bgImageURL: "./events/technical.webp",
 	},
 	{
 		heading: "Non Technical",
 		numberOfEvents: "8",
 		description:
-			"If you are a dreamer with a keen eye for detail, specializing in stunning visual imagery. If you are imaginative and can translate communication into design, then connect with us by sending in your application.",
-		hyperlink: "/events/technical",
-		bgImageURL: './events/nontechnical.webp',
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis sagittis metus nec consectetur. Nullam vel semper quam. Donec fermentum vel enim quis consectetur. Pellentesque at neque dapibus, sollicitudin purus sit amet, vehicula felis.",
+		hyperlink: "/nontechnical",
+		bgImageURL: "./events/nontechnical.webp",
 	},
 	{
-		heading: "Technical",
-		numberOfEvents: "8",
+		heading: "Workshop",
+		numberOfEvents: "2",
 		description:
-			"If you are a dreamer with a keen eye for detail, specializing in stunning visual imagery. If you are imaginative and can translate communication into design, then connect with us by sending in your application.",
-		hyperlink: "/events/technical",
-		bgImageURL: './events/nontechnical.webp',
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis sagittis metus nec consectetur. Nullam vel semper quam. Donec fermentum vel enim quis consectetur. Pellentesque at neque dapibus, sollicitudin purus sit amet, vehicula felis.",
+		hyperlink: "/workshop",
+		bgImageURL: "./events/nontechnical.webp",
 	},
 ]
 
