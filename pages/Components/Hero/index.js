@@ -3,12 +3,15 @@ import { useState, useEffect } from "react"
 
 export default function Home() {
 	return (
-		<div className={styles.hero}>
-			<HeroImage />
-			<Title />
-			<Timer />
-			<Explore />
-		</div>
+		<>
+			<span id="home"></span>
+			<div className={styles.hero}>
+				<HeroImage />
+				<Title />
+				<Timer />
+				<Explore />
+			</div>
+		</>
 	)
 }
 

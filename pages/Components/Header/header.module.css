@@ -3,6 +3,10 @@
     align-items: center;
     padding: 0.5rem 1rem;
     border-bottom: 1px solid #ffffff2b;
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    z-index: 5;
 }
 
 .navOption {
