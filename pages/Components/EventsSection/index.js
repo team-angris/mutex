@@ -1,23 +1,27 @@
 import styles from "./eventSection.module.css"
 import { useState } from "react"
-import { nonTechData } from "./data"
+import { techData, nonTechData } from "./data"
 
-export default function Home() {
+export default function Home(props) {
 	return (
 		<>
-			<EventsSection />
+			<EventSection type={props.type} />
 		</>
 	)
 }
 
-function EventsSection() {
-	let [selected, setSelected] = useState(10001)
+function EventSection(props) {
 
-	return (
+    let type = props.type
+    let data = type === "tech" ? techData : nonTechData
+	
+    let [selected, setSelected] = useState(10001)
+
+    return (
 		<div className={styles.container}>
 			<div className={styles.eventContainer}>
 				<div className={styles.eventList}>
-					{nonTechData.map((item) => (
+					{data.map((item) => (
 						<EventList
 							item={item}
 							selected={selected}
@@ -27,7 +31,7 @@ function EventsSection() {
 					))}
 				</div>
 				<div className={styles.eventDetails}>
-					{nonTechData.map((item) => (
+					{data.map((item) => (
 						<EventDetails
 							item={item}
 							selected={selected}
