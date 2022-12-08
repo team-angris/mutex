@@ -6,7 +6,7 @@ export default function Header() {
 		<div className={styles.container} id="header">
 			<div className={styles.flexOne}></div>
 
-			<NavOption tagName="Home" hyperlink="home" />
+			<NavOption tagName="Home" hyperlink="" />
 			<NavOption tagName="About" hyperlink="about" />
 			<NavOption tagName="Events" hyperlink="events" />
 			<NavOption tagName="Sponsors" hyperlink="sponsors" />

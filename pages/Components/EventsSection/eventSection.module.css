@@ -137,13 +137,26 @@ span.detailSub {
         justify-content: unset;
     }
     .eventItem, .eventItemActive {
-        min-width: 20ch;
+        min-width: 15ch;
         padding-top: 5px;
         padding-bottom: 5px;
     }
     .eventItem, .eventItemActive {
         -webkit-user-select: none;
         user-select: none;
+    }
+    .eventList::-webkit-scrollbar-thumb {
+        background-color: #dadce0;
+    }
+    
+    .eventList::-webkit-scrollbar-track {
+        background: none;
+        border: none;
+    }
+    
+    .eventList::-webkit-scrollbar-track:hover {
+        background: none;
+        border: none;
     }
     
 }
