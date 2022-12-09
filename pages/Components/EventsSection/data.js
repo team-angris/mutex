@@ -147,7 +147,7 @@ export let techData = [
 		about: "Are you the one who always thinks out of the box to solve problems? Are you passionate about programming?This is the perfect event for you. You don't need to travel long distances to show your love for programming.",
 		teamType: "Solo or Team",
 		teamSize: "1-2",
-		time: "Dec 10, 1pm - 3pm",
+		time: "Dec 10, 10am - 12:45pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1:  Coding - Preliminary round with questions from technical domain.",
@@ -168,7 +168,7 @@ export let techData = [
 		about: "Blind coding is a coding event in which the participants have to code without testing. The participants are allowed to test their code only once at the end",
 		teamType: "Solo or Team",
 		teamSize: "1-2",
-		time: "Dec 10, 1pm - 4:30pm",
+		time: "Dec 10, 10am - 12:45pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Two rounds will be conducted and the shortlisted teams from round-1 will be moved to round-2. After two rounds, the winners will be announced. ",
@@ -183,7 +183,7 @@ export let techData = [
 		about: "Reverse Coding  is a competitive coding competition where participants have to think in reverse and come up with questions for the solutions",
 		teamType: "Solo or Team",
 		teamSize: "1-3",
-		time: "Dec 10, 2pm - 4:30pm",
+		time: "Dec 10, 10am - 12:45pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Reverse Coding has two rounds . All teams can participate in the first round. The top 5 teams from round 1 move on to round 2.",
@@ -202,7 +202,7 @@ export let techData = [
 		about: "Challenge your peers and race against the clock along with disturbances and obstacles to reach the finish line. This event tests your technical knowledge on various domains and coding knowledge. Contestants with the highest number of points within the given time along with disturbances will win.",
 		teamType: "Solo or Team",
 		teamSize: "1-2",
-		time: "Dec 10, 4pm - 6pm",
+		time: "Dec 10, 10am - 12:45pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1:  MCQ + Coding - Preliminary round with questions from technical domain.",
@@ -221,7 +221,7 @@ export let techData = [
 		about: "You never know when the big insight will hit. You might experience it while reading, watching, or even napping peacefully. Now, if you do have that game-changing concept, the B-plan at Mutex offers you a place to discuss, debate, and reflect on it with like-minded people. You have the chance to make the change you wish to see in the world.",
 		teamType: "Solo or Team",
 		teamSize: "1-3",
-		time: "Dec 10, 1pm - 3pm",
+		time: "Dec 10, 10am - 12:45pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1:  MCQ & Ideation questions - Preliminary round with questions from business domain.",
@@ -236,7 +236,7 @@ export let techData = [
 		about: "",
 		teamType: "Solo or Team",
 		teamSize: "1-2",
-		time: "Dec 10, 2pm - 4pm",
+		time: "Dec 10, 1pm - 3pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1:  Get Started with UI/UX Online Webinar on Fundamentals on UI/UX",
@@ -251,7 +251,7 @@ export let techData = [
 		about: "Coding the perfect solution is a myth.  A code riddled with logical errors can make you want to fling yourself off a cliff. Do you have the eye of a true programmer to find and squash the bugs?  Find out if you have what it takes to #DeBug the code. You can edit/modify the starter code but not insert/delete any lines of code. If you do so, your solution will not be accepted even if your output matches the expected output.",
 		teamType: "Solo or Team",
 		teamSize: "1-2",
-		time: "Dec 10, 1pm - 3pm",
+		time: "Dec 10, 10am - 12:45pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1 - PRELIMS - Pen and paper based",
@@ -270,7 +270,7 @@ export let techData = [
 		about: "We present you with an exquisite opportunity to showcase your brilliance in the technical field. Try brushing up all your technical concepts!",
 		teamType: "Solo or Team",
 		teamSize: "1-2",
-		time: "Dec 10, 2pm - 4:30pm",
+		time: "Dec 10, 10am - 12:45pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Two rounds will be conducted wherein MCQ's will be flashed. Incase of tie, a tie breaker round will decide the winner",
@@ -290,7 +290,7 @@ export let techData = [
 		about: "Are you the one who thinks out of the box and implements innovative project ideas? Do you have an excellent skill to showcase your project ? This is the perfect event for you. Present your innovative projects and demonstrate your defending skills by answering the questions asked.",
 		teamType: "Team",
 		teamSize: "1-3",
-		time: "Dec 10, 2pm - 4:30pm",
+		time: "Dec 10, 1pm - 2:30pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Project PPT and Demo(recorded or live)",
@@ -305,7 +305,7 @@ export let techData = [
 		about: "Trying to find your way through the data world may be hard. But, with simple queries it can be made simple. Ready to explore? We present to you this event where you will get to work on real-life database problems, improve your skill set and hack your way to the  data world.",
 		teamType: "Solo or Team",
 		teamSize: "1-2",
-		time: "Dec 10, 2pm - 4:30pm",
+		time: "Dec 10, 10am - 12:45pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1: MCQ - Preliminary round with questions from Database and Big data domain. Mode: Offline (Pen & paper)",
