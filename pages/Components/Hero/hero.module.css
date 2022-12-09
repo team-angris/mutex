@@ -43,7 +43,14 @@
     font-weight: 500;
 }
 
-.explore {
+.buttonsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.explore, .register {
     font-family: "Work Sans";
     padding: 10px 55px 11px 55px;
     background-color: #FF1616;
@@ -64,20 +71,32 @@
     transition: background 0.8s;
 }
 
-.explore:hover {
+.explore:hover, .register:hover {
     background-color: #e00000;
     background: #e00000 -o-radial-gradient(circle, transparent 1%, #e00000 1%) center/15000%;
     background: #e00000 radial-gradient(circle, transparent 1%, #e00000 1%) center/15000%;
 }
 
-.explore:active {
+.explore:active, .register:active {
     background-color: #FF1616;
     background-size: 100%;
     -webkit-transition: background 0s;
     -o-transition: background 0s;
     transition: background 0s;
-    
+}
 
+.register {
+    background-color: #0070f3;
+}
+
+.register:hover {
+    background-color: #005ac2;
+    background: #005ac2 -o-radial-gradient(circle, transparent 1%, #005ac2 1%) center/15000%;
+    background: #005ac2 radial-gradient(circle, transparent 1%, #005ac2 1%) center/15000%;
+}
+
+.register:active {
+    background-color: #0070f3;
 }
 
 @media screen and (max-width: 480px) {

@@ -9,7 +9,12 @@ export default function Home() {
 				<HeroImage />
 				<Title />
 				<Timer />
-				<Explore />
+				
+				<div className={styles.buttonsContainer}>
+					<Explore />
+					<Register />
+				</div>
+				
 			</div>
 		</>
 	)
@@ -110,7 +115,20 @@ function Explore() {
 
 	return (
 		<button onClick={handleClick} className={styles.explore} type="button" >
-			Explore
+			Explore 🎨
 		</button>
+	)
+}
+
+function Register() {
+
+	let formsURL = "https://forms.gle/jzxchghGQXeFX3cm8"
+
+	return (
+		<a href={formsURL} target="_blank" rel="noreferrer noopener">
+			<button className={styles.register} type="button">
+			Register 🧲
+		</button>
+		</a>
 	)
 }
