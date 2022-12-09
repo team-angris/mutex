@@ -20,11 +20,11 @@ let dataset = [
 		bgImageURL: "./events/nontechnical.webp",
 	},
 	{
-		heading: "Workshop",
-		numberOfEvents: "2",
+		heading: "Mega",
+		numberOfEvents: "1",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis sagittis metus nec consectetur. Nullam vel semper quam. Donec fermentum vel enim quis consectetur. Pellentesque at neque dapibus, sollicitudin purus sit amet, vehicula felis.",
-		hyperlink: "/workshop",
+			"Win more with this surprise event. Will be disclosed on the day of the event.",
+		hyperlink: "/megaevent",
 		bgImageURL: "./events/nontechnical.webp",
 	},
 ]
