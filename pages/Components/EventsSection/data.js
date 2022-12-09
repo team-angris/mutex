@@ -274,8 +274,8 @@ export let techData = [
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Two rounds will be conducted wherein MCQ's will be flashed. Incase of tie, a tie breaker round will decide the winner",
-			"Round 1: This tests the competitors' knowledge of cricket.",
-			"Round 2: This round essentially consists of an auction for the round 1 players who were chosen.",
+			"Round 1: Knowledge of Technical skills",
+			"Round 2: Essentially consists of intermediate to high level technical questions and rapid fire round",
 		],
 		organizers: [
 			"Thrishya - 9384011184",
