@@ -316,3 +316,24 @@ export let techData = [
 		posterUrl: "./posters/tech/dbms.webp",
 	},
 ]
+
+export let workshop = [
+	{
+		titleName: "Resume Building",
+		id: 10001,
+		about: "Stop procrastinating on making your resume! The goal of this workshop is to help you make the first draft of your resume, or to help you discuss and improve your resume!",
+		teamType: "Solo or Team",
+		teamSize: "1-2",
+		time: "Dec 10, 10am - 12:45pm",
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
+		rounds: [
+			"Round 1:  Coding - Preliminary round with questions from technical domain.",
+			"Round 2: Coding - Teams that qualify round 1 will compete in this final round",
+			"The contestants with the highest scores will be recognized as winners.",
+		],
+		organizers: [
+			"Raghavasimhan T V - 8838816377"
+		],
+		posterUrl: "./posters/workshop/resume.webp",
+	}
+]
