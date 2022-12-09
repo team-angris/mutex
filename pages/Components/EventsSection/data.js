@@ -17,7 +17,7 @@ export let nonTechData = [
 			"The contestants with the highest scores will be recognized as winners.",
 		],
 		organizers: ["Srinath B (9789649388)", "Shreeja K (9150445617)"],
-		posterUrl: "./posters/nontech/mathomania.png",
+		posterUrl: "./posters/nontech/mathomania.webp",
 	},
 	{
 		titleName: "Gaming",
@@ -37,7 +37,7 @@ export let nonTechData = [
 			"Logeshwaran K (7339122647)",
 			"Riyaz Ahmed S (9150567713)",
 		],
-		posterUrl: "./posters/nontech/gaming.png",
+		posterUrl: "./posters/nontech/gaming.webp",
 	},
 	{
 		titleName: "Fandom Quiz",
@@ -56,7 +56,7 @@ export let nonTechData = [
 			"Aravinth kumar A M (8870335281)",
 			"Vishnu A (8939430854)",
 		],
-		posterUrl: "./posters/nontech/quiz.png",
+		posterUrl: "./posters/nontech/quiz.webp",
 	},
 	{
 		titleName: "Code Hunt",
@@ -73,7 +73,7 @@ export let nonTechData = [
 			"Sanjay Kannan M (8428929784)",
 			"Srevardhani R (9360120793)",
 		],
-		posterUrl: "./posters/nontech/codehunt.png",
+		posterUrl: "./posters/nontech/codehunt.webp",
 	},
 	{
 		titleName: "Connexions",
@@ -90,7 +90,7 @@ export let nonTechData = [
 			"Dafni trisha.N.R (9443192988)",
 			"Geethanjali.B (6383051844)",
 		],
-		posterUrl: "./posters/nontech/codehunt.png",
+		posterUrl: "./posters/nontech/codehunt.webp",
 	},
 	{
 		titleName: "Charades",
@@ -106,7 +106,7 @@ export let nonTechData = [
 			"Round 2: Both technical and non-technical terms will be tested. The best performing team will be selected as the  winners considering various aspects and scores.",
 		],
 		organizers: ["Pooja B (7395915055)", "Gnanavarshini M (6380614424)"],
-		posterUrl: "./posters/nontech/charades.png",
+		posterUrl: "./posters/nontech/charades.webp",
 	},
 	{
 		titleName: "Art",
@@ -120,7 +120,7 @@ export let nonTechData = [
 			"There is only one round in this competition. The topic will be provided on the spot, and the artwork needs to be finished in 90 minutes. The necessary tools will be offered. Depending on the preferences of the participants, more equipment may be brought. The top two works of art will be recognised after evaluations of creativity and ideology.",
 		],
 		organizers: ["Sowmya .R (8056493106)", "Surya.S (9150986251)"],
-		posterUrl: "./posters/nontech/charades.png",
+		posterUrl: "./posters/nontech/charades.webp",
 	},
 	{
 		titleName: "Code Cricket",
@@ -136,7 +136,7 @@ export let nonTechData = [
 			"Round 2: This round essentially consists of an auction for the round 1 players who were chosen.",
 		],
 		organizers: ["Jagan (7540088216)", "Veejendhiran P (6383647169)"],
-		posterUrl: "./posters/nontech/codecricket.png",
+		posterUrl: "./posters/nontech/codecricket.webp",
 	},
 ]
 
@@ -160,7 +160,7 @@ export let techData = [
 			"Madhav Krishnaa B- 7338964197",
 			"Aakash LS- 9841738989",
 		],
-		posterUrl: "./posters/tech/normalcoding.png",
+		posterUrl: "./posters/tech/normalcoding.webp",
 	},
 	{
 		titleName: "Blind Coding",
@@ -175,7 +175,7 @@ export let techData = [
 			"Coding languages: based on their preference. ",
 		],
 		organizers: ["SHRINITHA S  9003290095", "SAI ANCHANA S A  8939825128"],
-		posterUrl: "./posters/tech/blindcoding.png",
+		posterUrl: "./posters/tech/blindcoding.webp",
 	},
 	{
 		titleName: "Reverse Coding",
@@ -191,7 +191,7 @@ export let techData = [
 			"At the end of the two rounds, the team with the most number of points will be declared the winner. In the case of a tie, the team that took the least amount of time to solve the questions will win.",
 		],
 		organizers: ["Not yet announced 😞"],
-		posterUrl: "./posters/tech/reversecoding.png",
+		posterUrl: "./posters/tech/reversecoding.webp",
 	},
 	{
 		titleName: "Street Coding",
@@ -210,7 +210,7 @@ export let techData = [
 			"Aadhitya A - 9884113766",
 			"Kailash -9095541133",
 		],
-		posterUrl: "./posters/tech/streetcoding.png",
+		posterUrl: "./posters/tech/streetcoding.webp",
 	},
 	{
 		titleName: "B Plan",
@@ -225,7 +225,7 @@ export let techData = [
 			"Round 2: Pitch - Best performing teams from round 1 will compete in this final round of pitching their products",
 		],
 		organizers: ["Vignesh A - 8825708044", "Krishnan R - 6383 551 677"],
-		posterUrl: "./posters/tech/bplan.png",
+		posterUrl: "./posters/tech/bplan.webp",
 	},
 	{
 		titleName: "UI/UX Designing ",
@@ -240,7 +240,7 @@ export let techData = [
 			"Round 2: UI Design Event ",
 		],
 		organizers: ["Sneha Pillai - 7358733362", "Aarthi Iyer"],
-		posterUrl: "./posters/tech/uiux.png",
+		posterUrl: "./posters/tech/uiux.webp",
 	},
 	{
 		titleName: "Debug",
@@ -259,7 +259,7 @@ export let techData = [
 			"Yashwanth V - 7010103495",
 			"Vasudevakrishna - 6383943553",
 		],
-		posterUrl: "./posters/tech/debug.png",
+		posterUrl: "./posters/tech/debug.webp",
 	},
 	{
 		titleName: "Technical Quiz",
@@ -279,7 +279,7 @@ export let techData = [
 			"Sudharsana - 9513787803",
 			"Abhijit - 98404 06710",
 		],
-		posterUrl: "./posters/tech/techquiz.png",
+		posterUrl: "./posters/tech/techquiz.webp",
 	},
 	{
 		titleName: "Project Presentation",
@@ -294,7 +294,7 @@ export let techData = [
 			"Round 1:  Present your innovative projects with Demo ",
 		],
 		organizers: ["Mohamed Fazith - 9080527253", "Rozen Berg"],
-		posterUrl: "./posters/tech/projectpresentation.png",
+		posterUrl: "./posters/tech/projectpresentation.webp",
 	},
 	{
 		titleName: "Query the World (DBMS)",
@@ -310,6 +310,6 @@ export let techData = [
 			"Language preferred: MySQL, Oracle",
 		],
 		organizers: ["Ezhil Mukhi S - 7305774686", "Monika - 9840867891"],
-		posterUrl: "./posters/tech/dbms.png",
+		posterUrl: "./posters/tech/dbms.webp",
 	},
 ]
