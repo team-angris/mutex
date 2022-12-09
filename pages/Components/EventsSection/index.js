@@ -162,7 +162,7 @@ function Rounds(props) {
 	)
 }
 
-function Organizers(props) {
+export function Organizers(props) {
 	return (
 		<div className={styles.organizers}>
 			<span className={styles.subHeadingTitle}>Organizers</span>
@@ -177,7 +177,7 @@ function Organizers(props) {
 	)
 }
 
-function ApplyNow() {
+export function ApplyNow() {
 	let formURL = "https://forms.gle/jzxchghGQXeFX3cm8"
 
 	return (
