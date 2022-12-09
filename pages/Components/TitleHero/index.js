@@ -8,6 +8,12 @@ export default function Home(props) {
 		return item.id == id
 	})
 
+	if(required.length == 0) {
+		return (
+			<></>
+		)
+	}
+
 	let heading = required[0].heading
 	let subHeading = required[0].description
 
