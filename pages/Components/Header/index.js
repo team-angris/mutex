@@ -4,9 +4,8 @@ import Link from "next/link"
 export default function Header() {
 	return (
 		<div className={styles.container} id="header">
+			<SiteLogo />
 			<div className={styles.flexOne}></div>
-
-			<NavOption tagName="Home" hyperlink="" />
 			<NavOption tagName="About" hyperlink="about" />
 			<NavOption tagName="Events" hyperlink="events" />
 			<NavOption tagName="Sponsors" hyperlink="sponsors" />
@@ -22,5 +21,15 @@ export function NavOption(props) {
 				<span className={styles.navLink}>{props.tagName}</span>
 			</Link>
 		</div>
+	)
+}
+
+export function SiteLogo() {
+	return (
+		<Link href="/">
+			<div className={styles.logoContainer}>
+				<img src="./logo.webp" height={30} alt="Mutex" />
+			</div>
+		</Link>
 	)
 }
