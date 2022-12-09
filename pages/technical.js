@@ -17,7 +17,7 @@ export default function Home() {
       <Header />
 
       <main className={styles.blackRedGradientBackground}>
-        <TitleHero heading="Technical Events" />
+        <TitleHero id="10001" />
         <EventSection type="tech" />
       </main>
     </div>

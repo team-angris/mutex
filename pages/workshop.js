@@ -17,7 +17,7 @@ export default function Home() {
       <Header />
 
       <main className={styles.blackRedGradientBackground}>
-        <TitleHero heading="Workshops" />
+        <TitleHero id="10003" />
         <WorkShop />
       </main>
     </div>

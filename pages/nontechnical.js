@@ -17,7 +17,7 @@ export default function Home() {
       <Header />
 
       <main className={styles.blackRedGradientBackground}>
-        <TitleHero heading="Non-Technical Events" />
+        <TitleHero id="10002" />
         <EventSection type="nontech" />
       </main>
     </div>
