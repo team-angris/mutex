@@ -16,17 +16,32 @@
 }
 
 .sponsorsContainer {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 90vw;
-    border: 1px solid white;
+    border: 1px solid #ffffff3d;
     max-width: 900px;
     margin: 0 auto;
     margin-top: 4rem;
     border-radius: 12px;
     background-color: #4a49495e;
+    gap: 12px;
+    padding: 4rem;
+}
+
+.sponsorsContainer img {
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 480px) {
+    .sponsorsContainer img {
+        height: auto;
+        width: 250px;
+    }
+    .sponsorsContainer {
+        padding: 3rem;
+    }
 }
