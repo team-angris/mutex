@@ -114,6 +114,25 @@ span.detailSub {
     gap: 0.5rem;
 }
 
+.applyNow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.applyNowButton {
+    background-color: #FF3333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
     .actualEventDetails {
         flex-direction: column-reverse;

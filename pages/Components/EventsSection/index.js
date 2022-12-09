@@ -95,6 +95,7 @@ function LeftDetails(props) {
 			<Prize prize={props.item.prize} />
 			<Rounds rounds={props.item.rounds} />
 			<Organizers organizers={props.item.organizers} />
+			<ApplyNow />
 		</div>
 	)
 }
@@ -172,6 +173,23 @@ function Organizers(props) {
 					</div>
 				))}
 			</span>
+		</div>
+	)
+}
+
+function ApplyNow() {
+	let formURL = "https://forms.gle/jzxchghGQXeFX3cm8"
+
+	return (
+		<div className={styles.applyNow}>
+			<a href
+				={formURL}
+				target="_blank"
+				rel="noopener noreferrer"
+				className={styles.applyNowButton}
+			>
+				Apply Now
+			</a>
 		</div>
 	)
 }

@@ -190,7 +190,10 @@ export let techData = [
 			"Prelims - The teams can code in Java, JavaScript, C, C++, Go, Kotlin, PHP, or Python based on their preferences.",
 			"At the end of the two rounds, the team with the most number of points will be declared the winner. In the case of a tie, the team that took the least amount of time to solve the questions will win.",
 		],
-		organizers: ["Not yet announced 😞"],
+		organizers: [
+			"Vignesh A - 8825708044",
+			"Bhagya Narayanan - 9952920237"
+		],
 		posterUrl: "./posters/tech/reversecoding.webp",
 	},
 	{
