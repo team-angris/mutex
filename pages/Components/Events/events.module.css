@@ -11,6 +11,7 @@
 	font-size: 30px;
 	font-weight: 800;
 	margin-bottom: 2rem;
+	z-index: 1;
 }
 
 .eventsContainer {
@@ -20,6 +21,7 @@
     justify-content: center;
     align-items: center;
     margin: 2rem auto;
+	z-index: 1;
 }
 
 .eventCard {
@@ -77,11 +79,8 @@
 
 .designThing {
 	position: absolute;
-    background: url(./spiral.svg) no-repeat center
-		center;
     height: 133vh;
     width: 97vw;
-    z-index: -1;
     top: -330px;
     background-size: 953px;
 }

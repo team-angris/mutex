@@ -142,7 +142,7 @@ export let nonTechData = [
 
 export let techData = [
 	{
-		titleName: "Normal Coding",
+		titleName: "C for Code",
 		id: 10001,
 		about: "Are you the one who always thinks out of the box to solve problems? Are you passionate about programming?This is the perfect event for you. You don't need to travel long distances to show your love for programming.",
 		teamType: "Solo or Team",

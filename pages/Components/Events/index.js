@@ -26,7 +26,7 @@ export default function Home() {
 					})}
 				</div>
 
-				<div className={styles.designThing}></div>
+				<div style={{background: "url(./spiral.svg) no-repeat center center"}} className={styles.designThing}></div>
 			</div>
 		</>
 	)
