@@ -142,7 +142,7 @@ export let nonTechData = [
 
 export let techData = [
 	{
-		titleName: "C for Code",
+		titleName: "Can U Code",
 		id: 10001,
 		about: "Are you the one who always thinks out of the box to solve problems? Are you passionate about programming?This is the perfect event for you. You don't need to travel long distances to show your love for programming.",
 		teamType: "Solo or Team",
@@ -153,6 +153,7 @@ export let techData = [
 			"Round 1:  Coding - Preliminary round with questions from technical domain.",
 			"Round 2: Coding - Teams that qualify round 1 will compete in this final round",
 			"The contestants with the highest scores will be recognized as winners.",
+			"Coding can be done in any language."
 		],
 		organizers: [
 			"Meyyappan S - 9080033696",
