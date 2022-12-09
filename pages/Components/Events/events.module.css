@@ -10,7 +10,6 @@
 	color: #ff3333;
 	font-size: 30px;
 	font-weight: 800;
-	margin-bottom: 2rem;
 	z-index: 1;
 }
 
@@ -83,6 +82,7 @@
     width: 97vw;
     top: -330px;
     background-size: 953px;
+	opacity: 0.3;
 }
 
 @media screen and (max-width: 480px) {
