@@ -269,8 +269,8 @@ export let techData = [
 		titleName: "Technical Quiz",
 		id: 10008,
 		about: "We present you with an exquisite opportunity to showcase your brilliance in the technical field. Try brushing up all your technical concepts!",
-		teamType: "Solo or Team",
-		teamSize: "1-2",
+		teamType: "Solo",
+		teamSize: "1",
 		time: "Dec 10, 10am - 12:45pm",
 		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
