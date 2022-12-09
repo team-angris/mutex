@@ -33,7 +33,6 @@
 	margin: 1rem;
 	border-radius: 10px;
 	padding: 1.5rem;
-	padding-top: 2.5rem;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -98,7 +97,7 @@
 	}
 	.eventCard {
 		width: 320px;
-		height: 350px;
+		min-height: 400px;
 	}
 	.description {
 		font-size: 1rem;
