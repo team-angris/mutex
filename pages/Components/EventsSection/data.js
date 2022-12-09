@@ -10,7 +10,7 @@ export let nonTechData = [
 		teamType: "Solo",
 		teamSize: "1",
 		time: "Dec 10, 1pm - 3pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Prelims: This round will include some Basic / Intermediate Mathematical/Aptitude Problems/Puzzles based on understanding. Participants that get qualifying marks are eligible to compete in the next round.",
 			"Finals: This round will include some additional Intermediate/Advanced Math problems based on a few applications.",
@@ -26,7 +26,7 @@ export let nonTechData = [
 		teamType: "Solo",
 		teamSize: "1",
 		time: "Dec 10, 1pm - 4:30pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"1. Rubik's Cube Solving: The winner will be the student who solves the cube the quickest.",
 			"2. Battleground Games: Battlefield games to assess students' coordination and gaming prowess.",
@@ -46,7 +46,7 @@ export let nonTechData = [
 		teamType: "Team",
 		teamSize: "2-3",
 		time: "Dec 10, 2pm - 4:30pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1: Preliminary round. In this round, the competitors' fundamental knowledge will be examined. The top 8 teams will advance to the next round.",
 			"Round 2: Each team will receive direct questions, and they will have a set amount of time to respond to the intermediate to difficult General Knowledge questions that will be posed to them.",
@@ -65,7 +65,7 @@ export let nonTechData = [
 		teamType: "Team",
 		teamSize: "6",
 		time: "Dec 10, 4pm - 6pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Teams in this competition must demonstrate their deductive skills. There is only one round in it. Each squad can have a maximum of six members. The players should decipher the algorithm or pseudocode to discover the hint and look for them all over the campus. The winning team is the one who discovers the ultimate code prize first.",
 		],
@@ -82,7 +82,7 @@ export let nonTechData = [
 		teamType: "Solo",
 		teamSize: "1",
 		time: "Dec 10, 1pm - 3pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"In this one-on-one competition, competitors must logically connect the provided images to uncover the hidden word. Two rounds make up the contest. Participants must identify the technical and non-technical phrases within the allotted time in both rounds. The terms may also be multilingual. Participants should be able to logically reason their response.",
 		],
@@ -99,7 +99,7 @@ export let nonTechData = [
 		teamType: "Team",
 		teamSize: "3",
 		time: "Dec 10, 2pm - 4pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Any one person from the team can enact the given terms/words and the remaining members must guess it.",
 			"Round 1: Preliminary round.  Participants are expected to guess the word/term(non-technical).",
@@ -115,7 +115,7 @@ export let nonTechData = [
 		teamType: "Solo",
 		teamSize: "1",
 		time: "Dec 10, 1pm - 3pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"There is only one round in this competition. The topic will be provided on the spot, and the artwork needs to be finished in 90 minutes. The necessary tools will be offered. Depending on the preferences of the participants, more equipment may be brought. The top two works of art will be recognised after evaluations of creativity and ideology.",
 		],
@@ -129,7 +129,7 @@ export let nonTechData = [
 		teamType: "Team",
 		teamSize: "3",
 		time: "Dec 10, 2pm - 4:30pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"This competition aims to create the best cricket team within the available budget. There are two rounds of the competition.",
 			"Round 1: This tests the competitors' knowledge of cricket.",
@@ -148,7 +148,7 @@ export let techData = [
 		teamType: "Solo or Team",
 		teamSize: "1-2",
 		time: "Dec 10, 1pm - 3pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1:  Coding - Preliminary round with questions from technical domain.",
 			"Round 2: Coding - Teams that qualify round 1 will compete in this final round",
@@ -169,7 +169,7 @@ export let techData = [
 		teamType: "Solo or Team",
 		teamSize: "1-2",
 		time: "Dec 10, 1pm - 4:30pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Two rounds will be conducted and the shortlisted teams from round-1 will be moved to round-2. After two rounds, the winners will be announced. ",
 			"Coding languages: based on their preference. ",
@@ -184,7 +184,7 @@ export let techData = [
 		teamType: "Solo or Team",
 		teamSize: "1-3",
 		time: "Dec 10, 2pm - 4:30pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Reverse Coding has two rounds . All teams can participate in the first round. The top 5 teams from round 1 move on to round 2.",
 			"Prelims - The teams can code in Java, JavaScript, C, C++, Go, Kotlin, PHP, or Python based on their preferences.",
@@ -200,7 +200,7 @@ export let techData = [
 		teamType: "Solo or Team",
 		teamSize: "1-2",
 		time: "Dec 10, 4pm - 6pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1:  MCQ + Coding - Preliminary round with questions from technical domain.",
 			"Round 2: Coding - Best performing teams from round 1 will compete in this final round.",
@@ -219,7 +219,7 @@ export let techData = [
 		teamType: "Solo or Team",
 		teamSize: "1-3",
 		time: "Dec 10, 1pm - 3pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1:  MCQ & Ideation questions - Preliminary round with questions from business domain.",
 			"Round 2: Pitch - Best performing teams from round 1 will compete in this final round of pitching their products",
@@ -234,7 +234,7 @@ export let techData = [
 		teamType: "Solo or Team",
 		teamSize: "1-2",
 		time: "Dec 10, 2pm - 4pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1:  Get Started with UI/UX Online Webinar on Fundamentals on UI/UX",
 			"Round 2: UI Design Event ",
@@ -249,7 +249,7 @@ export let techData = [
 		teamType: "Solo or Team",
 		teamSize: "1-2",
 		time: "Dec 10, 1pm - 3pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1 - PRELIMS - Pen and paper based",
 			"Round 2 - FINALS - Computer based ",
@@ -268,7 +268,7 @@ export let techData = [
 		teamType: "Solo or Team",
 		teamSize: "1-2",
 		time: "Dec 10, 2pm - 4:30pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Two rounds will be conducted wherein MCQ's will be flashed. Incase of tie, a tie breaker round will decide the winner",
 			"Round 1: This tests the competitors' knowledge of cricket.",
@@ -288,12 +288,12 @@ export let techData = [
 		teamType: "Team",
 		teamSize: "1-3",
 		time: "Dec 10, 2pm - 4:30pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Project PPT and Demo(recorded or live)",
 			"Round 1:  Present your innovative projects with Demo ",
 		],
-		organizers: ["Mohamed Fazith - 9080527253", "Rozen Berg"],
+		organizers: ["Mohamed Fazith - 9080527253", "Rozen Berg - 6382807597"],
 		posterUrl: "./posters/tech/projectpresentation.webp",
 	},
 	{
@@ -303,7 +303,7 @@ export let techData = [
 		teamType: "Solo or Team",
 		teamSize: "1-2",
 		time: "Dec 10, 2pm - 4:30pm",
-		prize: ["Not yet announced 😞"],
+		prize: ["Winner: ₹200", "Runner-up: ₹150"],
 		rounds: [
 			"Round 1: MCQ - Preliminary round with questions from Database and Big data domain. Mode: Offline (Pen & paper)",
 			"Round 2: Dataverse: Database querying and approaches to solve real world data problems (Winners from Round 1 are selected for Round 2). Mode: Offline (Lab PC/ Laptop with WiFi Connectivity)",
