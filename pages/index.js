@@ -7,6 +7,7 @@ import About from './Components/About'
 import Events from './Components/Events'
 import Sponsors from './Components/Sponsors'
 import Contact from './Components/Contact'
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
         <Sponsors />
         <Contact />
       </main>
+
+      <Footer />
     </div>
   )
 }

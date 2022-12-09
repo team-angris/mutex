@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    background-color: #a20000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.designByLink, .poweredByLink {
+    color: #fff;
+    text-decoration: underline;
+}
