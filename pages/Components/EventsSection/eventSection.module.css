@@ -68,7 +68,7 @@
 .topDetails {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
 }
 
@@ -90,6 +90,7 @@
 
 span.detailSub {
     font-size: 0.8rem;
+    text-align: center;
 }
 
 .subHeadingTitle {

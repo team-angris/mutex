@@ -135,7 +135,7 @@ function TopDetails(props) {
 function Prize(props) {
 	return (
 		<div className={styles.prize}>
-			<span className={styles.subHeadingTitle}>Prize Money 🤑</span>
+			<span className={styles.subHeadingTitle}>Prize Money</span>
 			<span className={styles.prizeSub}>
 				{props.prize.map((amount) => (
 					<div key={amount}>

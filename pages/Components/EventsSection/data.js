@@ -90,7 +90,7 @@ export let nonTechData = [
 			"Dafni trisha.N.R (9443192988)",
 			"Geethanjali.B (6383051844)",
 		],
-		posterUrl: "./posters/nontech/codehunt.webp",
+		posterUrl: "./posters/nontech/connections.webp",
 	},
 	{
 		titleName: "Charades",
@@ -120,7 +120,7 @@ export let nonTechData = [
 			"There is only one round in this competition. The topic will be provided on the spot, and the artwork needs to be finished in 90 minutes. The necessary tools will be offered. Depending on the preferences of the participants, more equipment may be brought. The top two works of art will be recognised after evaluations of creativity and ideology.",
 		],
 		organizers: ["Sowmya .R (8056493106)", "Surya.S (9150986251)"],
-		posterUrl: "./posters/nontech/charades.webp",
+		posterUrl: "./posters/nontech/art.webp",
 	},
 	{
 		titleName: "Code Cricket",
