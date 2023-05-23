@@ -35,11 +35,11 @@ function PoweredBy() {
 			<span>Powered by {" "}</span>
 			<a
 				className={styles.poweredByLink}
-				href="https://2s.pages.dev"
+				href="https://angris.in"
 				target="_blank"
 				rel="noreferrer noopener"
 			>
-				{"<2 Seconds"}
+				{"Angris"}
 			</a>
 			<span>{"↗"}</span>
 		</div>
